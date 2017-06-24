@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_settings"
+        android:title="Consent"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings2"
+        android:title="Study Info"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings3"
+        android:title="Prize Draw"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings4"
+        android:title="Credits"
+        app:showAsAction="never"/>
+
+</menu>

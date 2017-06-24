@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/rsb_item_size_default"
+        android:textColor="?attr/colorAccent"
+        android:textSize="16sp"
+        tools:text="title" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/rsb_item_size_default"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:id="@+id/switch_label_left"
+            android:paddingTop="15dp"
+            />
+
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/h_w_switch"
+            android:showText="false"
+            android:paddingTop="15dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/rsb_item_size_default"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:id="@+id/switch_label_right"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:paddingTop="15dp" />
+        
+    </LinearLayout>
+
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/value1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:minHeight="@dimen/rsb_item_size_default"
+            android:singleLine="true"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="14sp"
+            android:visibility="visible"
+            tools:text="Value"
+            android:ems="6"/>
+
+
+        <TextView
+            android:id="@+id/unit_label_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/rsb_item_size_default"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:textColor="?attr/colorAccent"
+            android:textSize="14sp"
+            android:visibility="visible"
+            android:layout_toEndOf="@+id/value1"
+            android:layout_toRightOf="@id/value1"/>
+
+        <EditText
+            android:id="@+id/value2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:minHeight="@dimen/rsb_item_size_default"
+            android:singleLine="true"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="14sp"
+            android:visibility="gone"
+            tools:text="Value"
+            android:ems="6"
+            android:layout_toEndOf="@id/unit_label_1"
+            android:layout_toRightOf="@id/unit_label_1"/>
+
+
+        <TextView
+            android:id="@+id/unit_label_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/rsb_item_size_default"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:textColor="?attr/colorAccent"
+            android:textSize="14sp"
+            android:visibility="gone"
+            tools:text="title"
+            android:layout_toEndOf="@+id/value2"
+            android:layout_toRightOf="@id/value2"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

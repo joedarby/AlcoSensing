@@ -1,0 +1,361 @@
+<resources>
+    <string name="app_name">AlcoSensing</string>
+    <string name="consent_button">Start Consent</string>
+    <string name="survey_button">Take Survey</string>
+    <string name="consent_button_done">Consented</string>
+    <string name="clear_button">Clear</string>
+    <string name="survey">Survey</string>
+    <string name="menu_data_cleared">Data has been cleared</string>
+    <string name="user_name">User Name:</string>
+    <string name="date_consented">Date Consented:</string>
+    <string name="responses">Responses so far:</string>
+    <string name="welcome">Welcome</string>
+    <string name="about">About</string>
+    <string name="reqs_title">Study Requirements</string>
+    <string name="prize_title">Prize Draw</string>
+    <string name="reg_title">About You</string>
+    <string name="consent_string">Consent</string>
+    <string name="survey_title">Drinks Survey</string>
+    <string name="wifi_warning">AlcoSensing needs to upload some data.\nPlease connect to WiFi.</string>
+    <string name="survey_warning">AlcoSensing will send a survey soon.\nLook out for notifications.</string>
+    <string name="alcosensing_name">AlcoSensing</string>
+    <string name="invalid_height_under">Invalid answer, your height must be more than %1$s centimetres. </string>
+    <string name="invalid_height_over">Invalid answer, your height must be less than %1$s centimetres.</string>
+    <string name="invalid_weight_under">Invalid answer, your weight must be more than %1$s kilograms.</string>
+    <string name="invalid_weight_over">Invalid answer, your weight must be less than %1$s kilograms.</string>
+    <string name="status_screen_advice">
+        <![CDATA[
+           <div style=\"font-size: 0.85em\">
+           Complete at least 10 survey responses before <b>5th August 2017</b> to qualify for the prize draw.
+           <br>
+           <br>
+           Keep your phone on and charged and surveys will be sent automatically every few days.
+           <br>
+           <br>
+           <b>It helps us if you click the button below whenever you are drinking alcohol, but don\'t worry if you forget.</b>
+           </div> ]]>
+
+    </string>
+    <string name="full_responses">
+        <![CDATA[
+           <div style=\"font-size: 0.85em\">
+           <b>Thanks! You\'ve completed 10 survey responses and have contributed valuable data to our research.</b>
+           <br>
+           <br>
+           Unless you opted out, then your email address will be entered into the prize draw. Winners will be notified
+           by 8th August 2017.
+           <br>
+           <br>
+           The study will continue until 5th August 2017. If you keep AlcoSensing installed you\'ll help to
+            contribute even more data to our research.
+            <br>
+            <br>
+            <b>Thanks again for taking part in AlcoSensing.</b>
+           </div> ]]>
+
+    </string>
+    <string name="study_end">
+        <![CDATA[
+           <div style=\"font-size: 0.85em\">
+           <b>The study is now over and you should delete this app from your phone.</b>
+           <br>
+           <br>
+           If you qualified for the prize draw, your email address will be entered. Winners will be notified
+           by 8th August 2017.
+           </div> ]]>
+
+    </string>
+    <string name="welcome_text" formatted="false">
+        <![CDATA[
+           <h2 style=\"text-align: center; font-family:sans-serif-light;\">Welcome to AlcoSensing</h2></div>
+           <div style=\"font-size: 0.85em\">Thank you for downloading the AlcoSensing app. By downloading and
+            using this app you’ll be helping with mobile sensing and machine
+            learning research. Please read the following information carefully
+            before you decide to take part.
+            <br>
+            <br>
+            AlcoSensing is part of a research project conducted by a master’s
+            student at Queen Mary University of London. If you continue to the
+            following screens and register for this study you are agreeing to be
+            a participant in this research project. You should only take part if
+            you want to.
+             <br>
+             <br>
+            If you don’t want to take part, you can uninstall this app by going to
+            your phone settings now. No information will be recorded and you won’t
+            be contacted.
+             <br>
+             <br>
+            If you register and start using AlcoSensing but want to leave the study
+            early, you are free to do so at any time. Just uninstall the app. Some
+            data may have been recorded and will be used for research. If you’ve used
+            the app for long enough you may still be entered into the prize draw, but
+            you won’t be contacted for any other reason.
+             <br>
+             <br>
+            If you decide you want to completely opt-out of the study and have all
+            of your data deleted, you can email <a href=\"mailto:j.darby@se16.qmul.ac.uk?Subject=AlcoSensing%20Enquiry\">
+            j.darby@se16.qmul.ac.uk</a> or <a href=\"mailto:laurissa.tokarchuk@qmul.ac.uk?Subject=AlcoSensing%20Enquiry\">
+            laurissa.tokarchuk@qmul.ac.uk</a> and ask to be removed from the study without giving a reason.
+             <br>
+             <br>
+            <b>For more information on what this study involves and what you need to
+            do, click next.</b></div> ]]>
+
+    </string>
+
+    <string name="about_text">
+        <![CDATA[
+           <h2 style=\"text-align: center; font-family:sans-serif-light;\">What is this research about?</h2>
+        "<div style=\"font-size: 0.85em\">
+           In your hand right now you’re holding a very impressive piece of techology. Your phone
+           contains lots of sensors used to measure  different things about the world around you.
+           <br>
+             <br>
+           Some of these you probably already know about, like the GPS which tells your
+           phone where you are. There’s also the accelerometer and gyroscope so that your phone
+           can detect movement, but have you ever thought about the digital compass or the light and proximity sensors?
+           <br>
+             <br>
+           All of these sensors produce data – numbers which represent things like how quickly you’re
+           moving your phone, how bright or loud the room is, your location and so on.
+           <br>
+             <br>
+
+           <b>AlcoSensing records some of this data from these sensors during certain time
+           periods.</b> At the same time it records some information about your phone, like times
+           when you switch your screen on or receive a notification.
+           <br>
+             <br>
+           Don’t worry, we’re not interested in exactly what you do with your phone. <b>We’re only
+           interested in data.</b> AlcoSensing won't record your calls
+           or access your contacts. We won’t be able to read what’s in your messages and we
+           won’t be able to look at your internet use, photos or the content of any other apps.
+           <br>
+             <br>
+
+           After AlcoSensing records some data, we’ll send you a notification asking you
+           to answer three quick questions about any alcohol you may have consumed
+           recently (more about that later). The point of this research is to see if we can find
+           a link between the data we collect from your phone, and how much you’ve had to drink.
+           <br>
+             <br>
+
+           <b>If you’re happy to have data like this collected from your phone, please click next.</b>
+           </div>"
+
+
+        ]]>
+
+
+    </string>
+
+    <string name="how_text">
+    <![CDATA[
+           <h2 style=\"text-align: center; font-family:sans-serif-light;\">How does the app work?</h2></div>
+           <div style=\"font-size: 0.85em\">
+           AlcoSensing runs in the background. <b>You can continue to use your phone exactly as you
+           always would.</b> Whenever AlcoSensing is recording some data you’ll see a notification.
+           It uses up a bit more battery than usual, so we’ll try not to record data whenever your
+           battery is low. If you don’t want any data recorded when you see the notification,
+           just expand the notification and click to cancel; we won’t try again for 3 hours.
+           <br>
+             <br>
+           When data recording ends the notification will disappear. Sometime later (perhaps the
+           next morning) a different notification will pop up asking you to answer 3 questions
+           related to a recent time period (e.g. 8pm to midnight last night). We’ll ask if you
+           had anything to drink, how much you had to drink, and how drunk you felt. <b>Just answer
+           the questions as accurately and truthfully as you can.</b>
+           <br>
+             <br>
+           If you want to qualify for the prize draw <b>you need to allow the app to collect data and you need to respond
+           to the survey notification at least 10 times.</b>
+           <br>
+             <br>
+           We’ll only ask you the questions every 2-3 days. So you’ll have to keep the app installed
+           on your phone for about a month to complete the study.
+           <br>
+             <br>
+           We don’t want to use up your mobile data, so AlcoSensing data only gets uploaded to our
+           server over WiFi. Please make sure you connect to a hotspot every now and then (the app
+           status screen will tell you if it’s waiting for WiFi).
+           <br>
+             <br>
+           If your phone switches off, the app will automatically restart in the background when
+           you switch the phone back on. <b>Please don’t force close the app.</b> This will
+           break things and you could lose your progress towards the prize draw.
+           <br>
+             <br>
+           If we release an important app update to the Play Store, AlcoSensing will send you a notification.
+           <b>Please make sure you keep the app up to date</b> or you may not receive surveys and won\'t
+           be able to qualify for the prize draw.
+           <br> <br>
+           Only uninstall the app at the end of the study or if you decide you want to leave the study early.
+           The AlcoSensing main screen will display a message when the study is over.
+            <br><br>
+           <b>If all of this sounds ok and you are happy to proceed, please click next.</b>
+           </div> ]]>
+    </string>
+
+    <string name="requirements_text">
+        <![CDATA[
+           <div style=\"font-size: 0.9em\">
+           In this research study we’re going to be asking you about drinking alcohol.
+           <br>
+           <br>
+           It doesn’t matter how much you drink, you can still take part and enter the prize draw even if you never drink any alcohol at all.
+           <br>
+             <br>
+           Because we’re talking about alcohol, we need to make sure that you meet certain requirements for this
+           study.
+           <br>
+           <br>
+           <b>Please tick the boxes next to the statements below <u>only if you agree</u>, then click next</b>:
+
+           </div> ]]>
+    </string>
+
+    <string name="screening_fail_text">You haven\'t ticked all the boxes. You don\'t seem to meet the study requirements.\n
+        \nThis study might not be right for you. To learn more about drinking alcohol, go to drinkaware.co.uk.\n
+        \nNo data has been stored. You can now uninstall the app. Thanks for your interest in AlcoSensing.
+
+    </string>
+
+    <string name="consent_fail_text">You need to tick the box to give consent.\n
+        \nPlease read the information carefully.\n
+        \nIf you do not wish to take part, please uninstall the app.
+
+    </string>
+
+    <string name="consent_text" formatted="false">
+    <![CDATA[
+           <div style=\"font-size: 0.85em\">
+           <b>At the bottom of this screen you are asked to provide your consent. Please only do this after
+           you have read all of the information which explains this research on the previous screens. Please
+           also read the notes here carefully.</b>
+            <br>
+           <br>
+           You can click the back arrow above to re-read the previous screens.
+            <br>
+           <br>
+           Title of study: “Can alcohol consumption and its acute effects be detected from smartphone sensor data?”
+            <br>
+           <br>
+           Queen Mary Ethics of Research Committee Ref QMERC2017/26
+            <br>
+           <br>
+           Thank you for considering taking part in this research. The person organizing the research has
+           provided information which explains the project, which you should read before you agree to take part.
+            <br>
+           <br>
+           If you have any questions arising from the information on previous screens, please ask the researcher
+           before you decide whether to join in. You can contact the researcher by email at <a href=\"mailto:j.darby@se16.qmul.ac.uk?Subject=AlcoSensing%20Enquiry\">j.darby@se16.qmul.ac.uk</a> or the academic project supervisor at
+            <a href=\"mailto:laurissa.tokarchuk@qmul.ac.uk?Subject=AlcoSensing%20Enquiry\">laurissa.tokarchuk@qmul.ac.uk</a>.
+            <br>
+           <br>
+           You will be able to refer to this Consent Form inside the AlcoSensing app at anytime.
+            <br>
+           <br>
+           <i>I understand that if I decide at any other time during the research that I no longer wish to participate
+           in this project, I can notify the researchers involved and be withdrawn from it immediately.
+            <br>
+           <br>
+           I consent to the processing of my personal information for the purposes of this research study. I
+           understand that such information will be treated as strictly confidential and handled in accordance
+           with the provisions of the Data Protection Act 1998.
+            <br>
+           <br>
+           I agree that the research project named above has been explained to me to my satisfaction and I agree
+           to take part in the study. I have read both the notes written above and the information screens about
+           the project, and understand what the research study involves.</i>
+
+           </div> ]]>
+    </string>
+
+    <string name="prize_text">
+        <![CDATA[
+        <div style=\"font-size: 0.85em\">
+        At the end of the study two eligible participants will be chosen at random to each receive a £20 Amazon voucher.
+        <br><br>
+        To be an eligible participant, you must respond to 10 survey notifications.
+        <br><br>
+        Eligibility does not depend on the answers to the questions or how much alcohol you drink.
+        <br><br>
+        There is no requirement to drink any alcohol to be eligible for the prize draw.
+        <br><br>
+        Your app status screen will show how many surveys you have completed.
+        <br><br>
+        Only one entry per person.
+        <br><br>
+        If you are a winner, you agree to be contacted by email so that you can receive your voucher.
+        </div> ]]>
+
+    </string>
+
+    <string name="data_protection_text">
+        <![CDATA[
+        <h2 style=\"text-align: center; font-family:sans-serif-light;\">Data Protection</h2></div>
+        <div style=\"font-size: 0.85em\">
+        The data we gather from you and your device during this study will be treated securely and confidentially.
+        <br><br>
+        Your data will not be used, transmitted or transferred to third parties for purposes other than for this study and other academic research.
+        <br><br>
+        We will use the Amazon Web Services S3 commercial cloud storage platform to store your data. This is
+        a secure way to store your information, so you can be sure nobody other than the
+        study researchers will be able to access your data.
+        <br><br>
+        Your data will be stored on servers located in the United Kingdom.
+        <br><br>
+        You can contact the researchers to request that your data is deleted at any time (see previous pages).
+        <br><br>
+        All of your data will be deleted when the study is complete.
+        <br><br>
+        </div>
+        <h2 style=\"text-align: center; font-family:sans-serif-light;\">Study Concerns</h2></div>
+        <div style=\"font-size: 0.85em\">
+        If you have any questions or concerns about the manner in which the study was conducted please,
+        in the first instance, contact the researcher responsible for the study. If this is unsuccessful,
+        or not appropriate, please contact the Secretary at the Queen Mary Ethics of Research Committee,
+        Room W104, Queen’s Building, Mile End Campus, Mile End Road, London or <a href=\"mailto:research-ethics@qmul.ac.uk?
+        Subject=Study QMERC2017/26\">research-ethics@qmul.ac.uk</a>.
+        </div> ]]>
+
+    </string>
+
+    <string name="drink_dialog_text">Thanks for completing the survey. You’re one step closer to qualifying for the prize draw!\n\n
+        Just so you know, the UK Chief Medical Officer says it’s best not to drink more than 14 units
+        of alcohol per week, and to spread it out over at least 3 days. It looks like you might drink
+        more than this sometimes.\n\n
+        Take a look at drinkware.co.uk if you want to learn more.\n\n
+        Remember to keep your phone on and don’t force close the app. You’ll receive another survey soon.
+        Click OK to go to your status screen.”
+    </string>
+
+    <string-array name="height_array">
+        <item>metric</item>
+        <item>feet/inches</item>
+    </string-array>
+
+    <string-array name="weight_array">
+        <item>metric</item>
+        <item>st/lbs</item>
+    </string-array>
+
+    <string name="me_credit">AlcoSensing was made by Joe Darby\n<a href= "www.github.com/joedarby">github.com/joedarby</a>
+    </string>
+
+    <string name="skit_credit">AlcoSensing uses SensingKit, a multi-platform sensing framework for large-scale experiments
+        \n<a href= "sensingkit.org">sensingkit.org</a>
+    </string>
+
+    <string name="rstack_credit">AlcoSensing uses ResearchStack, an SDK and UX framework for building research study apps on Android
+        \n<a href= "researchstack.org">researchstack.org</a>
+    </string>
+
+    <string name="icon_credit">AlcoSensing \"pint glass\"  icon made by <a href="www.freepik.com">Freepik</a>
+        from <a href="www.flaticon.com">www.flaticon.com</a>
+
+    </string>
+
+
+</resources>

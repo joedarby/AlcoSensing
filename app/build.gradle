@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.0'
+    signingConfigs {
+        release {
+            //key info here
+        }
+    }
+    defaultConfig {
+        applicationId "com.joedarby.alcosensing1"
+        minSdkVersion 16
+        targetSdkVersion 25
+        multiDexEnabled true
+        versionCode 7
+        versionName "1.3"
+        signingConfig signingConfigs.release
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+apply plugin: 'com.android.application'
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.google.android.gms:play-services-location:11.0.1'
+    compile 'com.google.android.gms:play-services-places:11.0.1'
+    compile 'org.researchstack:backbone:1.1.1'
+    compile 'org.sensingkit:SensingKitLib-release@aar'
+    compile 'com.amazonaws:aws-android-sdk-core:2.4.0'
+    compile('com.amazonaws:aws-android-sdk-s3:2.4.0') {
+        exclude module: 'commons-io'
+
+    }
+    compile 'com.hrules:horizontalnumberpicker:1.1.1'
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.7@aar') {
+        transitive = true;
+    }
+}
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.22.1'
+    }
+}
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}

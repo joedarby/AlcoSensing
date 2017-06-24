@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/credits_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+    <TextView
+        android:id="@+id/me_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/me_credit"
+        android:autoLink="web"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16dp"
+        android:padding="15dp" />
+    />
+
+    <TextView
+        android:id="@+id/s_kit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skit_credit"
+        android:autoLink="web"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16dp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/r_stack_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rstack_credit"
+        android:autoLink="web"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16dp"
+        android:padding="15dp"/>
+
+
+    <TextView
+        android:id="@+id/icon_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/icon_credit"
+        android:autoLink="web"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16dp"
+        android:padding="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Change to LinearLayout for preview to work -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:fadeScrollbars="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideOverlay"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/submit_bar_container"
+            >
+
+            <WebView
+                android:id="@+id/my_consent_layout_webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <org.researchstack.backbone.ui.views.SubmitBar
+                android:id="@+id/submit_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:positiveActionTitle="@string/rsb_next" />
+
+        </LinearLayout>
+    </ScrollView>
+</merge>
